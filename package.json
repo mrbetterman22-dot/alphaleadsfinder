@@ -8,10 +8,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "name": "alphaleadsfinder",
   "dependencies": {
     "@google/genai": "^1.39.0",
-    "@supabase/supabase-js": "^2.49.1",
+    "@supabase/supabase-js": "^2.47.10",
+    "next": "^15.1.6",
     "react-dom": "^19.2.4",
     "react": "^19.2.4",
     "lucide-react": "^0.563.0"

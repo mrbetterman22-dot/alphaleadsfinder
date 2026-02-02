@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
-import { generateSalesPitch } from "@/services/geminiService";
+import { generateSalesPitch } from "../../services/geminiService";
 
 // Initialize Supabase with the Service Role Key to bypass security
 const supabase = createClient(
