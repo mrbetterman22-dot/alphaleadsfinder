@@ -34,7 +34,7 @@ export default async function handler(req: any, res: any) {
       // 2. Call Outscraper
       const query = `${monitor.keyword} in ${monitor.city}`;
       const osResponse = await fetch(
-        `https://api.outscraper.com/maps/search-v2?query=${encodeURIComponent(query)}&limit=10&async=false`,
+        `https://api.outscraper.com/maps/search-v2?query=${encodeURIComponent(query)}&limit=50&async=false`,
         {
           headers: { "X-API-KEY": process.env.OUTSCRAPER_API_KEY || "" },
         },
